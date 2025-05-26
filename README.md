@@ -23,7 +23,8 @@ Requirements for the tool to run.
 First you need to run requirements.txt file as given below in vscode .
 --- pip install -r requirements.txt
 
-<img width="423" alt="Screenshot 2025-05-23 140943" src="https://github.com/user-attachments/assets/c15c7970-ae73-4ea5-91f6-b66527bc91c9" />
+<img width="423" alt="Screenshot 2025-05-23 140943" src="https://github.com/user-attachments/assets/6fec0126-5b29-47f8-a89c-c767ea7f8a62" />
+
 
 
 After all the requirements are installed you need to run main file for tool to work
@@ -31,16 +32,19 @@ After all the requirements are installed you need to run main file for tool to w
 1. The user must run a main.py file
   
 eg: c:/Niharika/PDF_downloader_automatic/main.py 
+<img width="767" alt="Screenshot 2025-05-23 141056" src="https://github.com/user-attachments/assets/c39ee406-51c5-4734-a422-9ed9e823346e" />
 
-<img width="767" alt="image" src="https://github.com/user-attachments/assets/1fec449e-8528-4e8a-9cb2-9642ee208899" />
+
 
 2. Now user needs to enter the csv file name
 
-   <img width="772" alt="image" src="https://github.com/user-attachments/assets/2c0cfdca-a631-443a-8791-2e0e34dc4172" />
+ <img width="772" alt="Screenshot 2025-05-23 141220" src="https://github.com/user-attachments/assets/bdca55a8-99da-4375-9955-2afce7165847" />
+
 
 3. After successful completion the the  excel file and folder for pdf will be downloaded.
 
-<img width="731" alt="image" src="https://github.com/user-attachments/assets/c5d0dcbf-fb79-4f5a-860a-ad4710099fd4" />
+<img width="731" alt="Screenshot 2025-05-23 141349" src="https://github.com/user-attachments/assets/72ef6180-7772-4d41-ac2e-9fa96d160e45" />
+
    
 OR
 
@@ -50,15 +54,18 @@ OR
 
 2. pip install -r requirements.txt
    
-   <img width="650" alt="image" src="https://github.com/user-attachments/assets/358e2955-1e19-48b6-9a8b-3761083cbba3" />
+  ![Screenshot 2025-05-23 141834](https://github.com/user-attachments/assets/6e9f0ff5-e087-432a-8525-26a7f266553d)
+
 
 3. python main.py
 
-<img width="434" alt="image" src="https://github.com/user-attachments/assets/0dc8870e-82e7-40cb-a2fa-a8a7114d314d" />
+![Screenshot 2025-05-23 141935](https://github.com/user-attachments/assets/95a32bc5-83bd-4e2f-a561-560261ba4243)
+
 
 4. next step you need to enter your csv file name (eg GRI_2017_2020.csv)
 
-<img width="539" alt="image" src="https://github.com/user-attachments/assets/f846b73b-36fb-49d6-8312-366a10c886e0" />
+![Screenshot 2025-05-23 142033](https://github.com/user-attachments/assets/1fa489af-86cb-4250-8015-2b78c0f00ad0)
+
 
 
 If the csv is in correct format you will have and excel file with status and filepaths and folder containing pdfs.
