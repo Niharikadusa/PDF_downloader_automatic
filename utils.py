@@ -3,15 +3,6 @@ from pythonimports import *
 def check_file(filepath):
     return os.path.isfile(filepath)
 
-'''def fileDataToDataframe(filename):
-    _, ext = os.path.splitext(filename.lower())
-    if ext == '.csv':
-        return pd.read_csv(filename)
-    elif ext in ['.xls', '.xlsx']:
-        return pd.read_excel(filename)
-    else:
-        raise ValueError("Unsupported file type. Only .csv, .xls, and .xlsx supported.")'''
-
 def fileDataToDataframe(filename):
     _, ext = os.path.splitext(filename.lower())
 
