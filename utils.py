@@ -72,7 +72,7 @@ def check_Link(df):
     for idx, status, filepath in results:
         df.at[idx, 'status'] = status
         df.at[idx, 'filepath'] = filepath
-        df.at[idx,'downloaded_date']=date.today()
+        df.at[idx,'downloaded_date']=date.today().strftime("%Y%m%d")
     return df
 
 def update_master(csv_file,MASTER_FILE):
