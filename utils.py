@@ -15,25 +15,20 @@ def fileDataToDataframe(filename):
 
     if df.shape[1] < 3:
         raise ValueError("Input file must have at least 3 columns: ID, PDF URL 1, PDF URL 2")
-
     df = df.rename(columns={
         df.columns[0]: 'id',
         df.columns[1]: 'pdf_url_1',
         df.columns[2]: 'pdf_url_2'
     })
-
     url_cols = ['pdf_url_1', 'pdf_url_2']
     has_valid_url = False
-
     for col in url_cols:
         valid_urls = df[col].dropna().map(lambda x: str(x).strip().lower().startswith('http'))
         if valid_urls.any():
             has_valid_url = True
             break
-
     if not has_valid_url:
         raise ValueError("Neither URL column contains valid URLs. This is not the correct file.")
-
     return df
 
 def download_pdf(row, output_folder,column_names):
